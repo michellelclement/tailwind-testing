@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --color-lime: #b9ff66;
+  --font-poppins: Poppins, sans-serif;
+}
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -8,30 +8,40 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div class="main" id="app">
-      <div class="main__container p-10 flex flex-col">
-        <div class="main__headings text-center">
-          <h1 class="text-2xl text-red-900 m-5 p-2 bg-red-100 border-[1px] border-black rounded-[10px]">Hello!</h1>
-          <h2 class="font-bold p-2 m-2">Let's give this Tailwind thing a try yeah?</h2>
-        </div>
-        <div class="main__cards flex gap-">
-          <div class="card border-[1px] border-black rounded-[10px] p-4 m-4">
-            <h3 class="card__heading">Card Heading 1</h3>
-            <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card border-[1px] border-black rounded-[10px] p-4 m-4">
-            <h3 class="card__heading">Card Heading 2</h3>
-            <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-          <div class="card border-[1px] border-black rounded-[10px] p-4 m-4">
-            <h3 class="card__heading">Card Heading 3</h3>
-            <p class="card__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
 
+    <section class="hero font-poppins bg-lime">
+      <h1 class="hero__title">Navigating the digital landscape for success</h1>
+      <p class="hero__text">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing and content creation.</p>
+      <button>Book a consultation</button>
+    </section>
+
+    <section class="services">
+      <div class="services__container">
+        <h2>Services</h2>
+        <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+
+        <div class="services__cards">
+          <div class="card">
+            <h3>Search engine optimization</h3>
+          </div>
+          <div class="card">
+            <h3>Pay-per-click advertising</h3>
+          </div>
+          <div class="card">
+            <h3>Social media marketing</h3>
+          </div>
+          <div class="card">
+            <h3>Email marketing</h3>
+          </div>
+          <div class="card">
+            <h3>Content creation</h3>
+          </div>
+          <div class="card">
+            <h3>Analytics and tracking</h3>
+          </div>
+        </div>
       </div>
-
-    </div>
+    </section>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
